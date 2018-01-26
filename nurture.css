@@ -1,0 +1,139 @@
+	/* Dropdown Button */
+	.nav1{
+		position: absolute;
+	}
+		body {
+  /* Location of the image */
+  background-image: url("astronomy.png");
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+	
+	/*design for nav button*/
+	.dropbtn{
+		background-color:#232122;
+		color:white;
+		padding:16px;
+		font-size:16px;
+		border: none;
+		cursor:pointer;
+
+	}	
+	
+	/* The container <div> - needed to position the dropdown content */
+	.dropdown{
+		position:relative;
+		display: inline-block;
+	}
+	/* Dropdown Content (Hidden by Default) */
+	.dropdown-content{
+		
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+	}
+	/* Links inside the dropdown */
+	.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+	/* Change color of dropdown links on hover */
+	.dropdown-content a:hover {background-color: #f1f1f1}
+
+	/* Show the dropdown menu on hover */
+	.dropdown:hover .dropdown-content {
+    display: block;
+	}
+
+	/* Change the background color of the dropdown button when the dropdown content is shown */
+	.dropdown:hover .dropbtn {
+    background-color: #575a5e;
+	}
+.contact{
+	color: white;
+	font-size: 400px;
+   margin-top: 100px;
+    margin-bottom: 30px;
+    color: #44AAFF;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 700;
+    font-size: 3.5em;
+    display: block;
+    text-align: center;
+
+
+	}
+	.contact1{
+	color: white;
+   margin-top: 50px;
+    margin-bottom: 30px;
+    color: #44AAFF;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    display: block;
+    text-align: left;
+
+}
+
+.contact2{
+	color:white;
+   margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    display: block;
+    text-align: left;
+
+}
+
+
+.contactUs{
+color: #ffffff;
+font-size: 2rem;	
+	
+	
+
+/*
+button {
+  border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+}
+button:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+
+
+*/
